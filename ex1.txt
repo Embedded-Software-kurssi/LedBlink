@@ -1,0 +1,31 @@
+﻿1.	Different functions from  blinking led led sketch
+a.	In Void Setup function drives one time in beginning of the program and whit it we can set values and    define pins and all other thing what doesn’t have to be defined at every     program cycle.
+b.	pinMode(13) defines  Arduino digital pin 13 to be usable at  this sketch as a output
+c.	voidLoop keep inside the functions that needs to be looped at every program cycle
+d.	digitalWrite(13, High)  This function set digital pin number 13 to high mode
+e.	delay (1000) function is pausing whole program run to defined time. In this program it is 1second, 1000milli seconds
+f.	digitalWrite(13, Low) This function set digital pin number 13 to low mode.
+g.	delay (1000) function is pausing whole program run to defined time. In this program it is 1second, 1000milli seconds
+
+2.	a.    I need datasheet for example in that I do not overload the digital pins  or try to use Arduino     with wrong voltage.
+
+b.  Arduino Uno is medium size micro controller with digital and analog input/output pins.
+c.  Atmel atmega328
+d. ~ means that the current pin is PWM adjustable. Pulse Widht Module integration.
+e. 16Mhz
+f. Yes it can be used as high and low.
+g. The bootloader is usually locked base program frame.
+h.  There is also alternative power source option in same side on the Arduino Uno board, black female connector for standard 12v male plug.
+       3. 
+a. Embedded system is an integrated system which have some mechanical, electronical  combination              that is controlled with a micro controller.  For example elevator, car self levelling suspension and printer.
+b.  There  will be some electronical or mechanical limitations when programming embedded software
+
+       4.
+a. Version controlling means that you track all of states of the project someway and you can restore them at any point.
+b. Version controlling is good when you have a large project and many peoples working on it same time, because when your work mate modifies same project and you want to get his made changes to your version it would be difficult task without version controlling system.
+c. Git is a distributed version control system
+d. Git can have two types of respositories bare which has no head and normal which has. Everyone who works with a same project can have separate copy of project in their workstations and when they want to merge their changes they just push their versions to remote respository which is bare and git will take care of merging then into one.
+
+ 
+
+
